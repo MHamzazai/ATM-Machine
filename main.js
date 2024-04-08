@@ -3,6 +3,7 @@ import inquirer from "inquirer";
 // first step: making the account balance.
 let myBalance = Math.floor(Math.random() * 10000 + 1);
 console.log("WELCOME ! To The Cli Based ATM.");
+console.log(`Your PIN CODE Is "1234".`);
 // second step: making the account PIN.
 const myPin = 1234;
 const pinAns = await inquirer.prompt([
